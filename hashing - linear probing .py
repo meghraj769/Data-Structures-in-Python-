@@ -13,31 +13,6 @@ class hash():
 	def disp(self):
 		return self.arr
 
-	# def getiterlist(self,h):
-	# 	#returns a list of indices in probing order
-	# 	# h = self.gethash(key)
-	# 	iterlist = [*range(h,len(self.arr))] + [*range(0,h)]
-	# 	return iterlist 
-
-	# def __setitem__(self,key,value):
-	# 	h = self.gethash(key)
-
-	# 	if self.arr[h] is None:
-	# 		self.arr[h] = (key,value)
-
-	# 	else:
-	# 		iterlist = self.getiterlist(h)
-	# 		full = True
-	# 		for i in iterlist:
-	# 			if self.arr[i] is None:
-	# 				self.arr[i] = (key,value)
-	# 				full = False
-	# 				break
-
-	# 		if full:
-	# 			print(f"\nThe hashable list is full so the element \"{value}\" cannot be inserted\n")
-
-
 	def __setitem__(self, key, value):
 		h = self.gethash(key)
 
@@ -76,29 +51,3 @@ class hash():
 			if newindex == h:
 				print("Invalid key!!!!")
 				return
-		
-
-
-# a = hashing(10)
-# a["march 1"] = 10
-# a["march 2"] = 12
-# a["march 3"] = 13
-# a["march 4"] = 15
-# a["march 5"] = 25
-# a["march 6"] = 35
-# a["march 7"] = 90
-# print(a.disp())
-
-# print("\n\nAfter deletion:::\n\n")
-# del a["march 9"]
-# print(a.disp())
-
-a = hash(10)
-a["march 1"] = 10
-a["march 2"] = 12
-a["march 3"] = 13
-a["march 4"] = 15
-a["march 5"] = 25
-a["march 6"] = 35
-a["march 7"] = 90
-print(a.disp())
