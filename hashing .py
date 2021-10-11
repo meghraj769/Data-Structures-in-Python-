@@ -21,10 +21,3 @@ class hashtable:
 
 	def retarray(self):
 		return self.arr
-
-# n = hashtable(10)
-# n["march 6"] = 5
-# n["march 17"] = 10
-# print(n["march 17"])
-# print(n["march 6"])
-# print(n.retarray())
