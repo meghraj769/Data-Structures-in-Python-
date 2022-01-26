@@ -143,10 +143,10 @@ if __name__ == "__main__":
 	# ll.insert_values(["dfg","rtior","dfjdsfk","dfjkfk"])
 	# ll.printlist()
 	# print("\n\n\n")
-	# # ll.insert_after_value("rtior","maakabhosda")
+	# # ll.insert_after_value("rtior","bh")
 	# # ll.printlist()
 	# # print("\n\n\n")
-	# # ll.insert_after_value("rti","maakabhosda")
+	# # ll.insert_after_value("rti","ui")
 	# ll.remove_by_value("rtior")
 	# ll.printlist()
 
